@@ -1,0 +1,37 @@
+{
+  "expo": {
+    "name": "Currencies Watcher",
+    "slug": "currencies-watcher",
+    "description": "This app can help everyone who wants to watch currencies and there changes",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "android": {
+      "useNextNotificationsApi": true,
+      "versionCode": 1,
+      "package": "dev.youssame.currencieswatcher.www"
+    },
+    "ios": {
+      "bundleIdentifier": "dev.youssame.currencieswatcher.www",
+      "buildNumber": "1.0.0",
+      "supportsTablet": false,
+      "infoPlist": {
+        "UIBackgroundModes": ["fetch"]
+      }
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    }
+  }
+}
